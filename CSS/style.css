@@ -47,7 +47,6 @@ table {
 	border-spacing: 0;
 }
 
-
 /* Add borders for working */
 
 body {
@@ -59,6 +58,9 @@ body {
 div {
     border: 1px solid Chocolate;
 }
+
+
+/* ========================================== */
 
 .content {
     padding: 0 0.938rem;
@@ -83,25 +85,27 @@ div {
 
 .top-navigation > .content {
     height: 4.375rem;
+    width: 970px;
+    margin: 0 auto;
 }
 
-.top-navigation .logo {
+.top-navigation > .logo {
     height: 4.375rem;
 }
 
 .top-navigation .links {
     float: right;
+    font-family: 'Roboto', sans-serif;
     color: #838994;
-    font-size: 1.04rem;
-    margin-top: 1.7rem;
+    font-size: 16px;
+    margin-top: 25px;
+    -webkit-font-smoothing: antialiased;
 }
-
 .top-navigation .links li {
     display: inline-block;
-    margin-left: 1.563rem;
+    margin-left: 25px;
 }
-
-.top-navigation .links li.active {
+.top-navigation .links .active {
     color: #4c5058;
     font-weight: 500;
 }
@@ -121,6 +125,8 @@ div {
     height: 45.938rem;
     overflow: auto;
 }
+
+
 
 
 
