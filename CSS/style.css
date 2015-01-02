@@ -60,7 +60,9 @@ div {
 }
 
 
-/* ========================================== */
+/* 
+* Branded Classes
+*/
 
 .content {
     padding: 0 0.938rem;
@@ -71,6 +73,7 @@ div {
 :focus {
     outline: none;
 }
+
 
 /**
  * Navigation Section
@@ -85,7 +88,9 @@ div {
 
 .top-navigation > .content {
     height: 4.375rem;
+    border:0 none!important;
 }
+
 .top-navigation .logo {
     height: 4.375rem;
 }
@@ -109,7 +114,6 @@ div {
 }
 
 
-
 /**
  * Introduction Section
  */
@@ -121,8 +125,6 @@ div {
     height: 45.938rem;
     overflow: auto;
 }
-
-
 
 
 /**
