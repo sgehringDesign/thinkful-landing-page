@@ -87,6 +87,7 @@ div {
     height: 4.375rem;
     width: 970px;
     margin: 0 auto;
+    border: 1px none;
 }
 
 .top-navigation > .logo {
